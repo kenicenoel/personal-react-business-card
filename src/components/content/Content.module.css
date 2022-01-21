@@ -1,0 +1,133 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     background-color: #23252C;
+     padding-bottom: 10px;
+     box-shadow: 5px 10px #c0c0c0;
+    /* background-color: #1A1B21; */
+}
+
+
+.photoContainer
+{
+    /* width: 320px; */
+     margin-top: 40px;
+}
+
+.profilePhoto
+{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.bio
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.name
+{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.jobTitle
+{
+    color: #F3BF99;
+    font-size: 14px;
+}
+
+.website
+{
+    font-size: 12px;
+}
+
+.content
+{
+    background-color: #1A1B21;
+    /* padding: 0 15px; */
+    width: 317px;
+    color: white;
+}
+
+.socialLinks
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.socialLinks > button > img
+{
+    margin-right: 5px;
+}
+
+.mailButton
+{
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    align-content: space-between;
+    background-color: #1e50db;
+    padding: 5px 20px;
+    width: 115px;
+    color: white;
+    border: none;
+}
+
+.linkedInButton
+{
+    border-radius: 10px;
+     display: flex;
+  align-items: center;
+    align-content: space-around;
+    background-color: #5093E2;
+      padding: 5px 20px;
+      margin-left: 10px;
+    width: 115px;
+    color: #ffffff;
+    border: none;
+}
+
+.aboutContainer, .interestsContainer
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 30px;
+    
+    /* align-items: center;
+    justify-content: center; */
+    /* margin-top: 30px; */
+}
+
+.title
+{
+    margin-bottom: 10px ;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #161619;
+    padding: 10px;
+}
+
+.footerButton
+{
+    border-radius: 10px;
+    display: flex;
+    background-color: #a17ac5;
+    justify-content: center;
+    padding: 5px;
+}
